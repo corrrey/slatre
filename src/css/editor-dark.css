@@ -1,0 +1,29 @@
+
+.cm-s-dark.CodeMirror { background: transparent; color: #6c6c6c; }
+.cm-s-dark div.CodeMirror-selected { background: #545454!important; }
+.cm-s-dark .CodeMirror-gutters { background: #292929; border-right: 0px; }
+.cm-s-dark .CodeMirror-linenumber { color: #545454; }
+
+/* begin cursor */
+.cm-s-dark .CodeMirror-cursor { border-left: 1px solid #bdbdbd; /* border-left: 1px solid #bdbdbd80; */ border-right: .5em solid #bdbdbd; /* border-right: .5em solid #bdbdbd80; */ opacity: .5; }
+.cm-s-dark .CodeMirror-activeline-background { background: #363636; /* background: #36334280;  */ opacity: .5;}
+.cm-s-dark .cm-fat-cursor .CodeMirror-cursor { background: #bdbdbd; /* background: #bdbdbd80; */ opacity: .5;}
+/* end cursor */
+
+.cm-s-dark span.cm-atom, .cm-s-dark span.cm-number, .cm-s-dark span.cm-keyword, .cm-s-dark span.cm-variable, .cm-s-dark span.cm-attribute, .cm-s-dark span.cm-quote, .cm-s-dark span.cm-hr, .cm-s-dark span.cm-link { color: #d6d6d6; }
+
+.cm-s-dark span.cm-property { color: #999999; }
+.cm-s-dark span.cm-punctuation, .cm-s-dark span.cm-unit, .cm-s-dark span.cm-negative { color: #a0a0a0; }
+.cm-s-dark span.cm-string { color: #c5c5c5; }
+.cm-s-dark span.cm-operator { color: #bdbdbd; }
+.cm-s-dark span.cm-positive { color: #696969; }
+
+.cm-s-dark span.cm-variable-2, .cm-s-dark span.cm-variable-3, .cm-s-dark span.cm-type, .cm-s-dark span.cm-string-2, .cm-s-dark span.cm-url { color: #797979; }
+.cm-s-dark span.cm-def, .cm-s-dark span.cm-tag, .cm-s-dark span.cm-builtin, .cm-s-dark span.cm-qualifier, .cm-s-dark span.cm-header, .cm-s-dark span.cm-em { color: #eeeeee; }
+.cm-s-dark span.cm-bracket, .cm-s-dark span.cm-comment { color: #6c6c6c; }
+
+/* using #f00 red for errors, don't think any of the colorscheme variables will stand out enough, ... maybe by giving it a background-color ... */
+.cm-s-dark span.cm-error, .cm-s-dark span.cm-invalidchar { color: #f00; }
+
+.cm-s-dark span.cm-header { font-weight: normal; }
+.cm-s-dark .CodeMirror-matchingbracket { text-decoration: underline; color: #eeeeee !important; } 
