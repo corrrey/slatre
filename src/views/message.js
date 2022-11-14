@@ -49,14 +49,6 @@ export default (state, emit) => roomIdx => (msg, idx) => {
           `
         }
 
-        case 'org.matrix.custom.html': {
-          return html`
-            <div id="msg-${roomIdx}-${idx}" class="msg ${common} f3 ${state.theme.fg3}">
-              ${sanitize(msg.content.formatted_body)}
-            </div>
-          `
-        }
-
         default: {
           return html`
             <div id="msg-${roomIdx}-${idx}" class="msg ${common} f3 ${state.theme.fg3}">

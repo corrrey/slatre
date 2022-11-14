@@ -26,11 +26,8 @@ export default (state, emitter) => {
 
   const cache = [
     '/theme',
-    ' 🖥️ Wake up, Neo...[.full]',
-    'The Matrix has you...[.full]',
-    'Follow the white rabbit. 🐇[.full]',
-    'Knock, Knock, Neo.[.full]',
-    '![img](https://media.giphy.com/media/K6rPLEBUrjEVW/giphy.gif) [.full]',
+    'Hello[.full]',
+    '![img](https://media.giphy.com/media/lOUT5Jyh4gpuXDWYSr/giphy.gif) [.full]',
   ]
   let cacheIdx = -1
 
