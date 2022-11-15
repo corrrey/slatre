@@ -1,10 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=development parcel -d ../public template.html",
-    "package": "BABEL_ENV=client parcel build -d ../public template.html",
-    "watch": "NODE_ENV=development parcel watch -d ../public template.html",
-    "build": "echo build"
+    "dev": "NODE_ENV=development parcel --dist-dir ../public template.html",
+    "build": "BABEL_ENV=client parcel build --dist-dir ../public template.html"
   },
   "prettier": {
     "semi": false,
@@ -34,36 +32,39 @@
     }
   },
   "alias": {
-    "sodium-native": "@geut/sodium-javascript-plus",
     "path": "path-browserify"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@parcel/packager-raw-url": "^2.8.0",
+    "@parcel/transformer-webmanifest": "^2.8.0",
     "animate.css": "^3.7.2",
+    "assert": "^2.0.0",
     "babel-plugin-unassert": "^3.0.1",
     "choo-devtools": "^3.0.4",
     "codemirror": "^5.53.2",
     "dayjs": "^1.8.26",
     "dompurify": "^2.0.11",
     "email-regex": "^4.0.0",
+    "events": "^3.3.0",
     "friendly-time": "^1.1.1",
     "husky": "^4.2.5",
     "insular-observer": "^0.1.1",
     "level": "^6.0.1",
-    "markdown-it": "^10.0.0",
-    "markdown-it-attrs": "^3.0.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.4",
     "monoapp": "^3.0.0",
     "nanohtml": "^1.9.0",
     "nanoid": "^2.1.7",
     "nanomorph": "^5.4.0",
     "on-load": "^4.0.2",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.0",
     "path-browserify": "^1.0.1",
     "prettier": "2.0.5",
     "pretty-quick": "^2.0.1",
+    "punycode": "^1.4.1",
     "quickjs-emscripten": "^0.2.0",
     "slash-command": "0.0.52",
-    "tachyons": "^4.12.0",
     "tachyons-grid-layout": "^0.1.0"
   }
 }

@@ -1,4 +1,4 @@
-import 'tachyons/css/tachyons.min.css'
+import './css/tachyons.css'
 import 'tachyons-grid-layout/css/tachyons-grid-layout.css'
 import 'animate.css'
 import './css/styles.css'
@@ -15,7 +15,6 @@ import commands from './models/commands'
 import editor from './models/editor'
 import main from './models/main'
 import net from './models/net'
-import scripting from './models/scripting'
 import core from './models/core'
 
 import mainView from './views/main'
